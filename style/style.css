@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+ul{
+    position: relative;
+    display: flex;
+    gap: 40px;
+}
+ul li{
+    position: relative;
+    list-style: none;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: aliceblue;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+ul li .fa{
+    font-size: 6em;
+    -webkit-text-stroke: 2px var(--clr);
+    color: transparent;
+}
